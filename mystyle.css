@@ -1,0 +1,48 @@
+body {
+    background-color:grey;
+    background-image:url(https://upload.wikimedia.org/wikipedia/tr/thumb/2/21/Wrapped_Bitcoin_logo_2.png/600px-Wrapped_Bitcoin_logo_2.png?20220925041210);
+    /* repeat-x repeat-y ile x ekseni y ekseninde resimleri tekrarlatabiliriz.*/
+    background-position: center;
+    background-repeat: no-repeat;
+}
+    
+h1 {
+    color: yellow;
+    background-color: brown;
+    
+}
+.paragraph-rule {
+    border-style: dotted;
+    width: 100px;
+    border: 2px dashed yellow; /*borderın 3 ozelliği, pixeli, duz mu noktalı mı tipi, son olarak rengi*/
+    border-radius: 5px; /*kenarlıkları yuvarlaklaştırma*/
+    margin-top: 100px;
+    margin-left: 20px;
+    margin: 50px; /*bu sekilde yazılırsa 4 taraftan da eşit dekilde bosluğu bırakır*/
+    padding: 50px; /*bu sekilde yazılırsa 4 taraftan da eşit dekilde bosluğu bırakır*/
+    padding: 50px 30px 10px 2px; /*top, right,left,bottom sırasına göre pixleri yazabiliriz. burası kesin değil deneyerek bak !*/
+    margin:auto;
+    text-align: right;
+
+    height: 50px;
+
+    display:flex;
+    align-items:center;
+    justify-content:center;
+
+}
+/*  !important taglere eklendğinde mutlaka o kuralı uyguluyor.*/
+/*  z-index katmanları yonetmek amacıyla, sırasını belirlemek amacıyla kullanıyoruz.*/
+.span-rule{
+color: blue;
+border: 1px solid yellow;
+padding: 3px;
+background-color: beige;
+font-size: 20x;
+text-transform: uppercase;
+letter-spacing: 2px;
+line-height: 2; /*satılar arasındaki bosluğu belirler*/
+font-family: Arial, Helvetica, sans-serif;
+font-style: normal;
+display: inline-block;
+}
